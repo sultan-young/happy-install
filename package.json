@@ -1,6 +1,6 @@
 {
   "name": "happy-install",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
   "author": "sultan",
   "license": "ISC",
   "bin": {
-    "hpinstall": "hpinstall"
+    "hpinstall": "./hpinstall.sh"
   },
-  "devDependencies": {
+  "dependencies": {
     "inquirer": "^8.2.4",
     "shelljs": "^0.8.5"
   }
