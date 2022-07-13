@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sultan-young/happy-install"
+  },
+  "publishConfig": {
+    "@sultany:registry": "https://npm.pkg.github.com"
   }
 }
