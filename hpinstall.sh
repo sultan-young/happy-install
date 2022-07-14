@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const shell = require("shelljs")
 const generateCommitLint = require('./lib/packages/commit-lint/start');
+const { updatePackage } = require("./lib/utils");
 const { Entry_Map } = require('./lib/map.js');
 
 async function questionInquirer() {
